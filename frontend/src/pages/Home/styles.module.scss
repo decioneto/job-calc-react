@@ -1,0 +1,33 @@
+.home-top {
+    background-color: var(--dark-purple-100);
+    padding: 2rem 0 4rem;
+
+    .home-top-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & > div {
+            display: flex;
+            gap: 2.5rem;
+
+            & > div {
+                display: flex;
+                flex-direction: column;
+
+                span {
+                    line-height: 26px;
+
+                    &:first-of-type {
+                        font-size: var(--body-lg);
+                        font-weight: var(--body-bold);
+                    }
+
+                    &:last-of-type {
+                        color: var(--dark-purple-400);
+                    }
+                }
+            }
+        }
+    }
+}

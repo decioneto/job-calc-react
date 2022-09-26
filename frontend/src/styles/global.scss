@@ -1,0 +1,57 @@
+:root {
+    --title-font-family: 'IBM Plex Sans', sans-serif;
+    --body-font-family: 'Inter', sans-serif;
+
+    /* font-size */
+
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.5rem;
+    --h4-font-size: 1.25rem;
+
+    --body-xs: 0.75rem;
+    --body-sm: 0.875rem;
+    --body-md: 1rem;
+    --body-lg: 1.25rem;
+
+    /* font-height */
+
+    --title-font-weight: 600;
+    --body-regular: 400;
+    --body-bold: 600;
+
+    /* colors */
+    --dark-purple-100: #41414c;
+    --dark-purple-200: #5a5a66;
+    --dark-purple-300: #787880;
+    --dark-purple-400: #bfbfcc;
+    --dark-purple-500: #f0f2f5;
+    --dark-purple-600: #fcfdff;
+    --orange-100: #f1972c;
+    --red-100: #eb3b35;
+    --red-200: #faeceb;
+    --green-100: #36b236;
+    --green-200: #e8f8e8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font-family);
+    font-size: var(--body-md);
+    font-weight: var(--body-regular);
+    line-height: 1.5rem;
+    background-color: var(--dark-purple-500);
+    min-height: 100vh;
+    height: 100%;
+    color: var(--dark-purple-600);
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-purple-600);
+}
